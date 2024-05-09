@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+canvas{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    z-index: 9;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    height: 10vh;
+    width: 30vw;
+    top: 3%;
+    border-radius: 20px;
+    position: fixed;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: 100;
+    background-color: #ffffff54;
+}
+
+#nav>img{
+    width: 10%;
+}
+#nav>button{
+    padding: 20px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffcd6f;
+    font-weight: 500;
+}
+#center-nav>a{
+    text-decoration: none;
+    margin: 3px;
+    color: #000 ;
+}
+#page>h1{
+    font-size: 69px;
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    font-weight: 500 ;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+#page>h4{
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    font-weight: 500 ;
+    top: 52%;
+    left: 50%;
+    z-index: 99;
+    color: #544e4e;
+    transform: translate(-50% , -50%);
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #E5E1DC;
+    position: relative;
+    /* z-index: 99; */
+}
+
+#page1>h1{
+    font-size: 69px;
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    font-weight: 500 ;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+#page1>h4{
+    font-size: 35px;
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    font-weight: 400 ;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    white-space: nowrap; 
+    color: #565656;
+}
+
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+}
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    z-index: 99;
+}
+#page4{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #E5E1DC;
+    z-index: 99;
+}
+
+#page4>h1{
+    font-size: 69px;
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    font-weight: 500 ;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+#page4>h4{
+    font-size: 35px;
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    font-weight: 400 ;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    white-space: nowrap; 
+    color: #565656;
+}
+#page5{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    position: relative;
+}
+#center-page5{
+    display: flex;
+    position: absolute;
+    height: 60%;
+    width: 75%;
+    background-color: #F6F3EF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+#leftPage5{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+}
+
+#leftPage5>video{
+    height: 90%;
+    width: 90%;
+}
+
+#rightPage5{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    width: 50%;
+    padding-left: 40px;
+    /* background-color: rgb(17, 15, 15); */
+}
+#rightPage5>h1{
+    font-weight: 600;
+    font-size: 2.9rem;
+    color: #000;
+}
+#rightPage5>h4{
+    font-weight: 500;
+    font-size: 1.3rem;
+    width: 70%;
+    color: #3c3934;
+
+}
+#rightPage5>button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+#page6{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+#left-page6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    /* width: 50%; */
+    /* background-color: red; */
+    padding: 7vw;
+    gap: 25px;
+}
+
+#left-page6>h1{
+    font-size: 2.7vw;
+    font-weight: 600;
+}
+#left-page6>h4{
+    font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+}
+
