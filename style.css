@@ -255,4 +255,28 @@ canvas{
         text-align: center;
         margin-bottom: 1.4rem;
     }
+    #center-page5{
+        flex-direction: column;
+    }
+    #leftPage5 {
+        width: 100%;
+        z-index: 99;
+    }
+    #leftPage5 video{
+        width: 100%;
+    }
+    #rightPage5 {
+        width: 100%;
+    }
+    #rightPage5 h4{
+        font-size: 1rem;
+    }
+    #rightPage5 button{
+        padding: 5px 10px;
+        font-size: 0.7rem;
+        /* margin-left: 1.6rem; */
+    }
+    #nav{
+        display: none;
+    }
 }
